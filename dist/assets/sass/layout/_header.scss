@@ -1,0 +1,50 @@
+.headerManual{
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    nav{
+        padding: 0 .75rem;
+    }
+}
+
+nav.menuLeft {
+    width: 250px;
+    height: auto;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+ul.menuLeft__list {
+    width: 100%;
+    height: auto;
+
+    li {
+        float: none;
+        a{
+            color: #fff;
+            display: block;
+            width: 100%;
+        }
+    }
+}
+
+.sidebar {
+    border: 1px solid #ccc;
+    background-color: #05a9f4;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    bottom: 1px;
+    width: 250px;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+.scrollable {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}

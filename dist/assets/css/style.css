@@ -1,0 +1,83 @@
+/*
+	BEM
+*/
+/*
+	Controla todos os Zindexs
+*/
+.cardPosts {
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(50, 50, 90, 0.1);
+  break-inside: avoid-column;
+  overflow: hidden; }
+  .cardPosts__image img {
+    display: block;
+    max-width: 100%; }
+  .cardPosts__content p {
+    padding: 10px;
+    font-family: sans-serif;
+    color: #6B7C93;
+    font-size: .875em;
+    line-height: 1.4em; }
+
+html, body {
+  height: 100%;
+  background-color: #FCFCFC; }
+
+body {
+  padding: 0 0 0 250px; }
+
+.contentManual {
+  position: relative;
+  padding-top: 64px; }
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  column-count: 5; }
+
+.light-white {
+  background-color: #fff; }
+
+.headerManual {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+  left: 0; }
+  .headerManual nav {
+    padding: 0 .75rem; }
+
+nav.menuLeft {
+  width: 250px;
+  height: auto;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none; }
+
+ul.menuLeft__list {
+  width: 100%;
+  height: auto; }
+  ul.menuLeft__list li {
+    float: none; }
+    ul.menuLeft__list li a {
+      color: #fff;
+      display: block;
+      width: 100%; }
+
+.sidebar {
+  border: 1px solid #ccc;
+  background-color: #05a9f4;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  bottom: 1px;
+  width: 250px;
+  overflow: hidden;
+  padding-bottom: 0; }
+
+.scrollable {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%; }

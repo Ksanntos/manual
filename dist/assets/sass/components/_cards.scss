@@ -1,0 +1,25 @@
+.cardPosts{
+    background: white;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	box-shadow: 0 2px 6px rgba(50,50,90,.1);
+	break-inside: avoid-column;
+    overflow: hidden;
+    
+    @include element(image){
+        img {
+            display: block;
+            max-width: 100%;
+        }
+    }
+
+    @include element(content){
+        p {
+            padding: 10px;
+            font-family: sans-serif;
+            color: #6B7C93;
+            font-size: .875em;
+            line-height: 1.4em;
+        }
+    }
+}
