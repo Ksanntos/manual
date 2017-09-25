@@ -40,6 +40,20 @@ body {
 .light-white {
   background-color: #fff; }
 
+.logo {
+  height: 190px;
+  margin: 0 auto;
+  width: 220px; }
+  .logo img {
+    width: 100%;
+    margin: 0 auto; }
+
+.page-footer {
+  background-color: #65b6f9 !important;
+  padding: 0; }
+  .page-footer .footer-copyright {
+    background-color: transparent; }
+
 .headerManual {
   position: absolute;
   width: 100%;

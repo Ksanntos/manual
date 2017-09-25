@@ -8,8 +8,14 @@ app.controller('listPost', function($scope, $rootScope, $location, $http, $state
     $scope.cont = $scope.Json.length;
     $scope.post = posts.getPostsId($scope.atual);
 
+    $scope.titleNext = posts.getPostsId($scope.atual + 1);
+    $scope.titleOld = posts.getPostsId(1);
+
     $scope.postId = function(id){
         $scope.post = posts.getPostsId(id);
+
+        $scope.titleNext = posts.getPostsId(id + 1);
+        $scope.titleOld = posts.getPostsId(id - 1);
     }
 
     $scope.avancar = function (index){

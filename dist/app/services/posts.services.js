@@ -5,7 +5,7 @@ app.service('posts', function($http){
     [
         {
           "id": 1,
-          "titulo": "Acessibilidade na web: Como tornar seu site acessível.",
+          "titulo": "1 - Acessibilidade na web: Como tornar seu site acessível.",
           "resumo": "Há 5 anos atrás eu escrevi aqui no Tableless um artigo falando um pouco sobre acessibilidade na web. Cinco anos se passaram e os motivos para se ter esse cuidado ao desenvolver sua aplicação não mudaram, mas novas ferramentas surgiram para que você atenda cada vez mais às demandas dessa parcela da nossa sociedade que tem tanto direito de usufruir de seu website quanto as pessoas sem deficiência alguma.",
           "autor": "Klinger Santos",
           "categoria": "javascript 1",
@@ -14,7 +14,7 @@ app.service('posts', function($http){
         },
         {
           "id": 2,
-          "titulo": "Como criar seu primeiro Progressive Web App do Zero",
+          "titulo": "2 - Como criar seu primeiro Progressive Web App do Zero",
           "resumo": "Entenda e crie seu Progressive Web App",
           "autor": "Klinger Santos",
           "categoria": "javascript 2",
@@ -23,7 +23,7 @@ app.service('posts', function($http){
         },
         {
           "id": 3,
-          "titulo": "Como criar seu primeiro Progressive Web App do Zero",
+          "titulo": "3 - Como criar seu primeiro Progressive Web App do Zero",
           "resumo": "Entenda e crie seu Progressive Web App",
           "autor": "Klinger Santos",
           "categoria": "javascript 3",
@@ -31,7 +31,7 @@ app.service('posts', function($http){
         },
         {
           "id": 4,
-          "titulo": "Como criar seu primeiro Progressive Web App do Zero",
+          "titulo": "4 - Como criar seu primeiro Progressive Web App do Zero",
           "resumo": "Entenda e crie seu Progressive Web App",
           "autor": "Klinger Santos",
           "categoria": "javascript",
@@ -39,7 +39,7 @@ app.service('posts', function($http){
         },
         {
           "id": 5,
-          "titulo": "Como criar seu primeiro Progressive Web App do Zero",
+          "titulo": "5 - Como criar seu primeiro Progressive Web App do Zero",
           "resumo": "Entenda e crie seu Progressive Web App",
           "autor": "Klinger Santos",
           "categoria": "javascript",
@@ -47,7 +47,7 @@ app.service('posts', function($http){
         },
         {
           "id": 6,
-          "titulo": "Como criar seu primeiro Progressive Web App do Zero",
+          "titulo": "6 - Como criar seu primeiro Progressive Web App do Zero",
           "resumo": "Entenda e crie seu Progressive Web App",
           "autor": "Klinger Santos",
           "categoria": "javascript",
@@ -55,7 +55,7 @@ app.service('posts', function($http){
         },
         {
           "id": 7,
-          "titulo": "Como criar seu primeiro Progressive Web App do Zero",
+          "titulo": "7 - Como criar seu primeiro Progressive Web App do Zero",
           "resumo": "Entenda e crie seu Progressive Web App",
           "autor": "Klinger Santos",
           "categoria": "javascript",
@@ -63,7 +63,7 @@ app.service('posts', function($http){
         },
         {
           "id": 8,
-          "titulo": "Como criar seu primeiro Progressive Web App do Zero",
+          "titulo": "8 - Como criar seu primeiro Progressive Web App do Zero",
           "resumo": "Entenda e crie seu Progressive Web App",
           "autor": "Klinger Santos",
           "categoria": "javascript",
@@ -71,7 +71,7 @@ app.service('posts', function($http){
         },
         {
           "id": 9,
-          "titulo": "Como criar seu primeiro Progressive Web App do Zero",
+          "titulo": "9 - Como criar seu primeiro Progressive Web App do Zero",
           "resumo": "Entenda e crie seu Progressive Web App",
           "autor": "Klinger Santos",
           "categoria": "javascript",
@@ -79,7 +79,7 @@ app.service('posts', function($http){
         },
         {
           "id": 10,
-          "titulo": "Como criar seu primeiro Progressive Web App do Zero",
+          "titulo": "10 - Como criar seu primeiro Progressive Web App do Zero",
           "resumo": "Entenda e crie seu Progressive Web App",
           "autor": "Klinger Santos",
           "categoria": "javascript",

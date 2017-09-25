@@ -2,12 +2,12 @@
 <div ng-controller="listPost">
   <div ui-view class="contentManual"></div>
 
-  <footer class="page-footer orange">
+  <footer class="page-footer">
     <div class="footer-copyright">
       <div class="container">
-          <a href="#" class="btn btn-primary left" ng-click="voltarPost(post.id)" ng-show="post.id > 1">Voltar</a>
+          <a href="#" class="btn btn-primary left" ng-click="voltarPost(post.id)" ng-show="post.id > 1">{{titleOld.titulo}}</a>
             
-          <a href="#" class="btn btn-primary right" ng-click="avancar(post.id)">Avancar</a>
+          <a href="#" class="btn btn-primary right" ng-click="avancar(post.id)">{{titleNext.titulo}}</a>
       </div>
     </div>
   </footer>
