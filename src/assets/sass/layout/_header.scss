@@ -12,7 +12,7 @@
     &.active{
         padding-left: 0;
     }
-    
+
     @include transitionSmooth(0.1s); 
 
     @include element(menu){
@@ -23,8 +23,13 @@
         float: left;
         cursor: pointer;
         display: none;
+        
         @include mq('tablet-wide', 'max'){
             display: block;
+        }
+
+        .material-icons {
+            font-size: 40px;
         }
     }
 
@@ -69,10 +74,19 @@ ul.menuLeft__list {
     z-index: 2;
     @include mq('tablet-wide', 'max'){
         left: -250px;
+        top: 58px;       
     }
 
     &.active{
         left: -250px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        &.active{
+            left: 0;
+        }
     }
 }
 

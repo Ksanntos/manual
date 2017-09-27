@@ -100,6 +100,8 @@ body {
     @media only screen and (max-width: 1023px) {
       .headerManual__menu {
         display: block; } }
+    .headerManual__menu .material-icons {
+      font-size: 40px; }
   @media only screen and (max-width: 1023px) {
     .headerManual {
       padding-left: 0; } }
@@ -139,9 +141,14 @@ ul.menuLeft__list {
   z-index: 2; }
   @media only screen and (max-width: 1023px) {
     .sidebar {
-      left: -250px; } }
+      left: -250px;
+      top: 58px; } }
   .sidebar.active {
     left: -250px; }
+
+@media screen and (max-width: 1024px) {
+  .sidebar.active {
+    left: 0; } }
 
 .scrollable {
   overflow-y: auto;
