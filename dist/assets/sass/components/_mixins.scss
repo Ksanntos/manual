@@ -12,6 +12,13 @@
     transition:         $transition $time;
 }
 
+@mixin transitionSmooth($second){
+    transition: all $second ease-in-out;
+    -webkit-transition: all $second ease-in-out;    
+    -moz-transition: all $second ease-in-out;
+    -o-transition: all $second ease-in-out;
+}
+
 @mixin padding($top, $right, $bottom, $left) {
     padding-top: $top;
     padding-right: $right;
@@ -40,6 +47,10 @@
     height: $height;
 }
 
+@mixin square($size){
+    @include size($size, $size);
+}
+
 @mixin truncate($truncation-boundary) {
     max-width: $truncation-boundary;
     white-space: nowrap;
@@ -61,6 +72,27 @@
   @at-root #{&}--#{$name} {
     @content;
   }
+}
+
+@mixin clearfix() {
+    &:before,
+    &:after {
+      content: " ";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+}
+
+/*
+    Centralize rapidamente qualquer elemento dentro de seu pai. Requer width ou max-width definido.
+*/
+
+@mixin center-block() {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*

@@ -53,7 +53,7 @@ gulp.task('sassWatch', function () {
   gulp.watch('src/assets/sass/**/*.scss', ['sass']);
 });
 
-gulp.task('serve', ['clean', 'copy', 'usemin', 'build-img','sass', 'sassWatch'], function() {
+gulp.task('serve', ['clean', 'copy', 'usemin', 'sass', 'sassWatch'], function() {
   browserSync.init({
       server: {
           baseDir: ''

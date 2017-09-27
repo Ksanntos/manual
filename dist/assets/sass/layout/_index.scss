@@ -1,10 +1,16 @@
 html, body {
-    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
     background-color: #FCFCFC;
 }
 
 body {
-    padding: $paddingTop 0 0 $paddingLeft;
+    padding: $paddingTop 0 70px $paddingLeft;
+    @include transitionSmooth(0.1s); 
+    @include mq('tablet-wide', 'max'){
+        padding: $paddingTop 0 0 0;
+    }
 }
 
 .contentManual{
@@ -18,22 +24,24 @@ body {
 	column-count: 5; 
 }
 
-.light-white{background-color: #fff;}
-
-.logo {
-    height: 190px;
-    margin: 0 auto;
-    width: 220px;
-
-    img {
-        width: 100%;
-        margin: 0 auto;
-    }
+.contentPost{
+    height: auto;
+    @include clearfix();
 }
+
+.light-white{background-color: #fff;}
 
 .page-footer{
     background-color: #65b6f9 !important;
     padding: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 13px;
+    height: 70px;
+    left: 0;
+    padding-left: 246px;
+    z-index: 1;
 
     .footer-copyright{
         background-color: transparent;
